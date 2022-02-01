@@ -362,8 +362,6 @@ div {
 }
 .market-eth {
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   text-align: left;
   line-height: 21px;
   margin-right: auto;
