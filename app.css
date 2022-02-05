@@ -626,3 +626,58 @@ div {
     font-size: 16px;
     font-weight: 600;
 }
+.meet-opensea{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+.meet-opensea-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.meet-opensea-sub-title{
+    text-align: center;
+    font-size: 16px;
+    color: #707a83;
+    margin-top: 20px;
+}
+.video-meet-opensea{
+    margin-top: 60px;
+    margin-left: calc(50% - 534.5px);
+}
+
+.explore-the-marketplace{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.button-explore-the-market{
+    width: 240px;
+    height: 100%;
+    margin-left: calc(50% - 120px);
+    color: #fff;
+    background-color: #2081e2;
+    border-color: #2081e2;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+.partners{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 129, 226);
+    padding: 0 45px;
+    height: 100px;
+}
+.partners-element{
+    width: 12.5%;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 5px;
+}
