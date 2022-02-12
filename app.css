@@ -12,6 +12,7 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+​
 
 button {
   cursor: pointer;
@@ -37,6 +38,9 @@ h5,
 h6,
 div {
   font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
 }
 
 .header {
@@ -680,4 +684,146 @@ div {
     cursor: pointer;
     color: #fff;
     margin: 0 5px;
+}
+
+.footer-top{
+  background-color: #1868b7;
+  color: #fff;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  width: 100%;
+}
+.footer-contact{
+  width: 50%;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 118px;
+}
+.footer-contact-title{
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-contact-description{
+  margin-top: 10px;
+  font-size: 16px;
+  max-width: 492px;
+}
+.email-contact{
+  margin-top: 24px;
+  display: flex;
+}
+.input-email-contact{
+  background-color: #fff;
+  text-align: left;
+  border-radius: 10px;
+  border-color: #e5e8eb;
+  border-style: solid;
+  border-width: 1px;
+  /* box-shadow: #04111d 0px 0px 8px 0px; */
+  color: #353840;
+  padding: 12px;
+  width: 342px;
+  height: 50px;
+  font-size: 15px;
+}
+.button-sign-up{
+  margin-left: 20px;
+  width: 126px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #2081e2;
+  height: 50px;
+  background-color: #2081e2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-community{
+  margin-top: 50px;
+  margin-right: 118px;
+}
+.join-community-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.list-community{
+  display: flex;
+  align-items: center;
+}
+.community-element{ 
+  background-color: #2081e2;
+  border-color: #2081e2;
+  box-shadow: #000000 0px 0px 0px 0px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: left;
+  margin: 8px 12px 0px 0px;
+  padding: 12px 20px;
+}
+
+.footer-bottom{
+  display: flex;
+  /* align-items: center; */
+  background-color: #1868b7;
+  /* justify-content: center; */
+  padding-top: 40px;
+}
+.footer-bottom-logo{
+  margin-left: 118px;
+  width: 20%;
+}
+.img-bottom-logo{
+  width: 44px;
+  height: 44px;
+}
+.footer-bottom-title{
+  color: #fff;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.footer-bottom-subtitle{
+  color: #fff;
+  text-align: left;
+  margin-top: 8px;
+}
+.footer-bottom-about{
+  color: #fff;
+  margin-left: 60px;
+  display: flex;
+}
+.footer-bottom-about-item{
+  margin: 0 20px;
+  width: 20%;
+}
+.about-item-title{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0px;
+}
+.about-item-subtitle{
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px 0px 15px;
+}
+
+.footer-detail{
+  background-color: #1868b7;
+  display: flex;
+  padding: 30px 90px;
+  color: #fff;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 300;
+}
+.footer-detail-left{
+
+}
+.footer-detail-right{
+  display: flex;
+}
+.footer-detail-right-item{
+  margin: 0 10px;
 }
